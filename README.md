@@ -97,6 +97,8 @@ define(['exports', 'N/https', 'N/ui/serverWidget'], function (exports, https, ui
 
 });
 ```
+
+*N.B if the ```exports```import object confuses you, this is the same as doing ```return {onRequest: onRequest}``` in requireJS (which NetSuite uses). See https://github.com/requirejs/requirejs/wiki/Differences-between-the-simplified-CommonJS-wrapper-and-standard-AMD-define#magic for more information*
 # Why is this Good?
 - [X] It allows you to always use the latest ES version no matter if NetSuite has implemented it yet
 - [X] It simplifies code reusability while at the same time ensure that you're file has no external dependencies in the NetSuite Filecabinet that may conflict.
