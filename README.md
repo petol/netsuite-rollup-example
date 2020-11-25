@@ -2,7 +2,9 @@
 This Project is an example of how RollupJS and TypeScript can be used for NetSuite Development. 
 For more information about TypeScript and RollupJS see https://www.typescriptlang.org/ and https://rollupjs.org respectively. 
 
-The Project uses 3 TypeScript files (1 ClientScript, 1 UserEvent and 1 Library) to Compile into 2 NetSuite compatible SuiteScript (.js) files
+The Project Consists of 2 examples. 
+* The first one uses 3 TypeScript files (1 ClientScript, 1 UserEvent and 1 Library) to Compile into 2 NetSuite compatible SuiteScript (.js) files. 
+* The second one uses 2 Typescript files (1 Suitelet, 1 Library) to compile into 1 NetSuite compatible (.js) file. 
 
 # Getting Started
 First Install Node and NPM & in a terminal run: 
