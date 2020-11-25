@@ -24,3 +24,4 @@ and draws inspiration from Michoel Chaikins NetSuite Webpack PoC (https://github
 
 # Future Improvements
 - [ ] Add NetSuites SDFCLI for Node to the Project
+- [ ] Test the Code in Netsuite :D
