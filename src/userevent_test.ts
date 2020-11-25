@@ -1,7 +1,7 @@
 import { EntryPoints } from 'N/types' // Contains the context for the Netsuite functions
 import { setMemo, setMemoOptions } from './libraryfile' // Import only function and interface from library file, Preferable
 import * as log from 'N/log' // Import netsuites log module
-import { Type } from '@hitc/netsuite-types/N/record'
+import { Type } from 'N/record'
 
 function beforeSubmit(ctx: EntryPoints.UserEvent.beforeSubmitContext) {
   if (ctx.type === ctx.UserEventType.EDIT) {
