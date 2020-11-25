@@ -8,8 +8,9 @@ import cleanup from 'rollup-plugin-cleanup'
  *  {input: filepath, type: scripttype, version?: suitescript version, scope?: modulescope, outputSubdir?: subfolder to place file in}
  */
 const entries = [
-  { input: 'src/clientscript_test.ts', type: 'clientScript'},
-  { input: 'src/userevent_test.ts', type: 'userEvent', version: '2.1', outputSubDir: 'userEvents'}
+  { input: 'src/example1-csue/clientscript_test.ts', type: 'clientScript'},
+  { input: 'src/example1-csue/userevent_test.ts', type: 'userEvent', version: '2.1', outputSubDir: 'userEvents'},
+  { input: 'src/example2-suitelet/suitelet-entrypoint.ts', type: 'Suitelet', version: '2.1', outputSubDir: 'suitelet'}
 ]
 
 /**
