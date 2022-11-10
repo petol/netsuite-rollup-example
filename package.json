@@ -14,7 +14,7 @@
     "is-core-module": "^2.1.0",
     "js-cleanup": "^1.2.0",
     "magic-string": "^0.25.7",
-    "minimatch": "^3.0.4",
+    "minimatch": "^3.0.5",
     "path-parse": "^1.0.6",
     "perf-regexes": "^1.0.1",
     "picomatch": "^2.2.2",
