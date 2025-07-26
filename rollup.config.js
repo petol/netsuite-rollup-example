@@ -55,6 +55,7 @@ function getAllEntries() {
         format: 'amd', // <- Must be amd for NetSuite Compatibility
         banner: buildNetSuiteBanner(entry.type, entry.version, entry.scope),
         strict: false,
+        interop: false // <- Makes cleaner files but can potentially cause issues with different formats in the future
       },
     })
   }
