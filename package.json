@@ -12,7 +12,7 @@
     "has": "^1.0.3",
     "is-core-module": "^2.1.0",
     "js-cleanup": "^1.2.0",
-    "magic-string": "^0.25.7",
+    "magic-string": "^0.30.21",
     "minimatch": "^3.0.4",
     "path-parse": "^1.0.6",
     "perf-regexes": "^1.0.1",
